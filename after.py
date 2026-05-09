@@ -30,4 +30,6 @@ response = httpx.post(
 )
 
 print(f"Status: {response.status_code}")
-print(f"Response: {response.json()}")
+with open("response.json", "w", encoding="utf-8") as f:
+    f.write(response.text)
+print("Response saved to response.json")
