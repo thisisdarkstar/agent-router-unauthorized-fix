@@ -223,3 +223,17 @@ The API validates client identity using the OpenAI SDK's X-Stainless headers. It
 - Build custom integrations
 - Run in CI/CD pipelines
 - Model benchmarking
+
+---
+
+## Disclaimer
+
+⚠️ **This solution is for testing and development purposes only.**
+
+- The API is designed to be accessed through Roo Code (their partner coding agent)
+- This workaround mimics the Roo Code client identity
+- May violate the API's terms of service - use at your own risk
+- Headers may change if Roo Code updates their SDK
+- Not recommended for production use
+
+For official API access, contact Agent Router directly at https://agentrouter.org
